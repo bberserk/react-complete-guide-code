@@ -3,6 +3,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/code/project-1/*/node_modules
+/code/project-2/*/node_modules
+/code/project-1/*/package-lock.json
+/code/project-2/*/package-lock.json
+/code/*/node_modules
+/code/*/package-lock.json
 /node_modules
 /.pnp
 .pnp.js
